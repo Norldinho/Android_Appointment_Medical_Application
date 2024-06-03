@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "807649351372",
+    "project_id": "mkjli-d716d",
+    "storage_bucket": "mkjli-d716d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807649351372:android:6dd0d2d5fc8ec8d5f1d469",
+        "android_client_info": {
+          "package_name": "com.example.mkjli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY41mLiunUFlKBWuIfvihKet0J5wS7N-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

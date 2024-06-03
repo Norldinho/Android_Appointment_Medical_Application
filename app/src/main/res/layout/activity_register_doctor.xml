@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RegisterDoctor">
+
+    <EditText
+        android:id="@+id/editTextDoctorNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom" />
+
+    <EditText
+        android:id="@+id/editTextDoctorPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prénom" />
+
+    <EditText
+        android:id="@+id/editTextDoctorEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextDoctorTelephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numéro de téléphone"
+        android:inputType="phone" />
+
+    <Spinner
+        android:id="@+id/spinnerDoctorWilaya"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Wilaya"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroupDoctorSexe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonDoctorHomme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homme" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDoctorFemme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Femme" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextDoctorMotDePasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mot de passe"
+        android:inputType="textPassword" />
+
+    <Spinner
+        android:id="@+id/spinnerDoctorSpecialite"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Spécialité" />
+
+    <Button
+        android:id="@+id/buttonDoctorInscrire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inscrire" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_for_doctor"
+    app:startDestination="@+id/hdoctor">
+    <fragment
+        android:id="@+id/hdoctor"
+        android:name="com.example.mkjli.medcin.home.HomeDoctorFragment"
+        tools:layout="@layout/fragment_home_doctor" />
+
+    <fragment
+        android:id="@+id/pdoctor"
+        android:name="com.example.mkjli.medcin.lorem.PlaningFragment"
+        tools:layout="@layout/fragment_planing" />
+
+    <fragment
+        android:id="@+id/cdoctor"
+        android:name="com.example.mkjli.medcin.chat.ChatDoctorFragment"
+        tools:layout="@layout/fragment_chat_doctor" />
+
+    <fragment
+        android:id="@+id/navigation_patient"
+        android:name="com.example.mkjli.medcin.home.PatientFragment"
+        tools:layout="@layout/fragment_patient"/>
+
+
+</navigation>

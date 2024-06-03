@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginPatient">
+
+<EditText
+    android:id="@+id/username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    android:layout_margin="16dp"/>
+
+<EditText
+    android:id="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:layout_below="@id/username"
+    android:layout_margin="16dp"/>
+
+<Button
+    android:id="@+id/login_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:layout_below="@id/password"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="16dp"/>
+
+<ProgressBar
+    android:id="@+id/loading_progress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/login_button"
+    android:layout_centerHorizontal="true"
+    android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="63dp"
+        android:layout_height="20dp"
+
+        android:layout_below="@+id/login_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="377dp"
+        android:text="@string/register"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+</RelativeLayout>

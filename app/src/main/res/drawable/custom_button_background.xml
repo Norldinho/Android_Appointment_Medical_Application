@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <!-- custom_button_background.xml -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <!-- Fond du bouton -->
+        <solid android:color="#FF5722" /> <!-- Couleur de fond du bouton -->
+
+        <!-- Bordure du bouton -->
+        <stroke
+            android:width="2dp"
+        android:color="#FFAB91" /> <!-- Couleur de la bordure -->
+
+        <!-- Coins arrondis du bouton -->
+        <corners
+            android:radius="8dp" /> <!-- Rayon des coins arrondis -->
+    </shape>
+
+</item>
+</selector>
